@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #4B5563;
+}
+
+#h1_1 {
+    color:white;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+
+#h1_2 {
+    color: #34D399;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #D1D5DB;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+#generate-btn {
+    background-color: #6EE7B7;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#img_lightning {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 0;
+}
+
+#img_dot {
+    max-width: 10%;
+    max-height: 10%;
+    
+}
+
+.row {
+  display: flex;
+  margin-left: 20px;
+  text-align: center;
+  
+  padding: 10px;
+}
+
+.column {
+  flex: 1;
+}
+
+.displayPassword {
+    background-color: #374151;
+    padding: 12px 12px;
+    border-radius: 10px;
+    color: #34D399;
+    margin: 20px;
+}
+
+p {
+    color: #D1D5DB;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+#length {
+    margin: 0 10px 40px 20px;
+
+}
