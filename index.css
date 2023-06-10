@@ -1,25 +1,26 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    background-color: #4B5563;
+    background-color: #4b5563;
 }
 
 #h1_1 {
-    color:white;
+    color: white;
     margin-left: 20px;
     margin-bottom: 5px;
     margin-top: 60px;
 }
 
 #h1_2 {
-    color: #34D399;
+    color: #34d399;
     margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 0;
 }
 
 h3 {
-    color: #D1D5DB;
+    color: #d1d5db;
     margin-left: 20px;
     margin-bottom: 40px;
     font-size: 15px;
@@ -27,7 +28,7 @@ h3 {
 }
 
 #generate-btn {
-    background-color: #6EE7B7;
+    background-color: #6ee7b7;
     padding: 10px 20px;
     color: white;
     margin-left: 20px;
@@ -42,38 +43,55 @@ h3 {
 }
 
 #img_dot {
-    max-width: 10%;
+    max-width: 5%;
     max-height: 10%;
-    
 }
 
 .row {
-  display: flex;
-  margin-left: 20px;
-  text-align: center;
-  
-  padding: 10px;
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+
+    padding: 10px;
 }
 
 .column {
-  flex: 1;
+    flex: 1;
 }
 
 .displayPassword {
     background-color: #374151;
     padding: 12px 12px;
     border-radius: 10px;
-    color: #34D399;
+    color: #34d399;
     margin: 20px;
+
+    cursor: pointer;
 }
 
 p {
-    color: #D1D5DB;
+    color: #d1d5db;
     margin-left: 20px;
     font-size: 15px;
 }
 
-#length {
+#passwordLengthInput {
     margin: 0 10px 40px 20px;
-
 }
+
+/* event delegation CSS */
+
+/* .password-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.password {
+   
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    flex-basis: 45%; 
+} */
