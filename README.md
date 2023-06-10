@@ -4,7 +4,7 @@
 
 Design File: https://www.figma.com/file/YRO9Iw5IYaOorjnRyNz4bV/Random-Password-Generator?node-id=0%3A1
 
-Demo:
+Demo: https://lauchunlok.github.io/JS_Assignment_2-passwordGenerator/
 
 ### TODO
 
